@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DataModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>2A45060EC4758EAF5CC06CC9B1D472B8</Id>
+    <Version>1</Version>
+    <Name>KDataModel1</Name>
+  </Identity>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </Category>
+  <Data>
+    <Fields />
+    <Scope>Public</Scope>
+  </Data>
+  <Status>Released</Status>
+  <Description />
+  <LockedBy>
+    <Id>0B97F6EF8D36470192868BD57E8EA52B</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+  <OwnerId>62A7229C9A65DA4C91EA0A5D365DC855</OwnerId>
+  <LastModifiedDate>2021-06-29T19:34:40.013</LastModifiedDate>
+  <LastModifiedBy>
+    <Id>0B97F6EF8D36470192868BD57E8EA52B</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedBy>
+</DataModel>

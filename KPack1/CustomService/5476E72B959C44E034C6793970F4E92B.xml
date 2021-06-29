@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CustomService xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>5476E72B959C44E034C6793970F4E92B</Id>
+    <Name>cs1</Name>
+    <Version>1</Version>
+    <Group>
+      <Id>3EE10F0887274B2F93B673578389DE8C</Id>
+      <Name>csg</Name>
+    </Group>
+  </Identity>
+  <Category>
+    <Id>B8AA327CDFFF4C9189B2E21F8DBFD8E4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </Category>
+  <Data>
+    <Owner />
+    <Inputs />
+    <Outputs />
+  </Data>
+  <LastModifiedDate>2021-06-28T11:22:37.97</LastModifiedDate>
+  <LastModifiedBy>
+    <Id>0B97F6EF8D36470192868BD57E8EA52B</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedBy>
+</CustomService>
