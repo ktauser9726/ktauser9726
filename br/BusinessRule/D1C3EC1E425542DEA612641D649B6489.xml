@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>D1C3EC1E425542DEA612641D649B6489</Id>
+    <Name>dt</Name>
+    <Version>1</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>1</Version>
+  <ProcessIdentity>
+    <Id>F9DBCD4CC3F7B38AA28420CB7AD2D7DE</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>1</Version>
+    <Name>dt</Name>
+  </ProcessIdentity>
+  <RuleType>DecisionTable</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName>Ramya.Thanneeru</LastModifiedUserName>
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>0B97F6EF8D36470192868BD57E8EA52B</LastModifiedUser>
+  <LastModifiedDate>2021-06-30T19:25:41.58</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>S</name>
+      <type>8</type>
+      <description>s</description>
+    </inputs>
+    <outputs>
+      <name>D</name>
+      <type>8</type>
+      <description>d</description>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables>
+        <VariableIdentity>
+          <Id>S</Id>
+          <Version>0</Version>
+          <DisplayName>s</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>D</Id>
+          <Version>0</Version>
+          <DisplayName>d</DisplayName>
+        </VariableIdentity>
+      </ShowOnTableVariables>
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>S</name>
+      <type>8</type>
+      <description>s</description>
+    </inputs>
+    <outputs>
+      <name>D</name>
+      <type>8</type>
+      <description>d</description>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables>
+        <VariableIdentity>
+          <Id>S</Id>
+          <Version>0</Version>
+          <DisplayName>s</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>D</Id>
+          <Version>0</Version>
+          <DisplayName>d</DisplayName>
+        </VariableIdentity>
+      </ShowOnTableVariables>
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

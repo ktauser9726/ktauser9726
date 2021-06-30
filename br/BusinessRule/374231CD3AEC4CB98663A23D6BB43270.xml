@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>374231CD3AEC4CB98663A23D6BB43270</Id>
+    <Name>fr</Name>
+    <Version>1</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>1</Version>
+  <ProcessIdentity>
+    <Id>8D2B7998330B06D3C2347B7BE097A81A</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>1</Version>
+    <Name>fr</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName>Ramya.Thanneeru</LastModifiedUserName>
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>0B97F6EF8D36470192868BD57E8EA52B</LastModifiedUser>
+  <LastModifiedDate>2021-06-30T19:23:29.747</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>
