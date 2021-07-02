@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>2619D1610DEF4EE3B63AABEF782EA3EA</Id>
     <Name>m1</Name>
-    <Version>3</Version>
+    <Version>4</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2021-07-02T15:58:17.747</LastModifiedDateTime>
+  <LastModifiedDateTime>2021-07-02T16:15:34.813</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>0B97F6EF8D36470192868BD57E8EA52B</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -24,9 +24,15 @@
   <Data>
     <Processes>
       <ProcessIdentity>
-        <Id>AB1F9994EBC9554C4A97D7FC35C4820F</Id>
+        <Id>A53E9E84491149D2E7310B114DC0497A</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Version>1</Version>
+        <Name>m11</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>AB1F9994EBC9554C4A97D7FC35C4820F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
         <Name>m1</Name>
       </ProcessIdentity>
     </Processes>
@@ -39,7 +45,7 @@
       <GeneralizedExport>false</GeneralizedExport>
       <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
       <ExportCaseFragments>false</ExportCaseFragments>
-      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportTemplateSkins>false</ExportTemplateSkins>
       <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
       <ExportGlobalDataModels>false</ExportGlobalDataModels>
       <ExportProcessDataModels>false</ExportProcessDataModels>
@@ -204,6 +210,7 @@
       <Name />
       <Version>0</Version>
     </QuickApp>
+    <GitFolderName>m1</GitFolderName>
   </Data>
   <Comments />
   <ResourceAccessTokens>
