@@ -6,22 +6,24 @@
     <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
     <AutomaticallyPopulate>false</AutomaticallyPopulate>
     <Name>stest_Document Review</Name>
-    <Version>1</Version>
+    <Version>2</Version>
   </FormIdentity>
   <Title>stest_Document Review</Title>
   <Width>1300</Width>
   <Height>680</Height>
-  <LastModifiedDateTime>2021-07-26T15:59:45.077</LastModifiedDateTime>
-  <InternalModifiedDate>2021-07-26T15:59:45.077</InternalModifiedDate>
+  <LastModifiedDateTime>2021-07-26T18:01:32.437</LastModifiedDateTime>
+  <InternalModifiedDate>2021-07-26T18:01:32.457</InternalModifiedDate>
   <LastModifiedByUser>BF62C7273BAC4F39AA4A1AA2FB75E0E1</LastModifiedByUser>
   <Columns>
     <FormColumn>
+      <Id>7C9625EF4330FF1A4367C7080D6995AF</Id>
       <DisplayIndex>0</DisplayIndex>
       <Width>1300</Width>
       <PercentageWidth>100</PercentageWidth>
       <Height>680</Height>
       <Rows>
         <Row>
+          <Id>E2383E9EF913027B94426384672D78E6</Id>
           <Width>1300</Width>
           <Height>20</Height>
           <DisplayIndex>0</DisplayIndex>
@@ -41,6 +43,7 @@
               <Orientation>1</Orientation>
               <Border>0</Border>
               <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>#FF99bce8</BorderColor>
               <CellControls>
                 <FormControl xsi:type="DocumentReviewCaptureControl">
                   <ControlType>CaptureDocumentReview</ControlType>
@@ -583,7 +586,7 @@
                   </FormControlEvents>
                   <FormIdentity>
                     <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-                    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
                     <Name>stest_Document Review</Name>
                     <Version>0</Version>
                   </FormIdentity>
@@ -819,10 +822,11 @@
                       <FormColumn>
                         <DisplayIndex>0</DisplayIndex>
                         <Width>1300</Width>
-                        <PercentageWidth>0</PercentageWidth>
+                        <PercentageWidth>100</PercentageWidth>
                         <Height>420</Height>
                         <Rows>
                           <Row>
+                            <Id>963F07E33B4806F5952A1217CFADDCCF</Id>
                             <Width>1300</Width>
                             <Height>20</Height>
                             <DisplayIndex>0</DisplayIndex>
@@ -842,7 +846,25 @@
                                 <Orientation>1</Orientation>
                                 <Border>0</Border>
                                 <BackgroundColor>Transparent</BackgroundColor>
+                                <BorderColor>#FF99bce8</BorderColor>
                                 <CellControls />
+                                <BackgroundSettings>
+                                  <UseBackgroundImage>false</UseBackgroundImage>
+                                  <LoadImageFromStore>false</LoadImageFromStore>
+                                  <ResizeImageToFit>false</ResizeImageToFit>
+                                </BackgroundSettings>
+                                <Margin>
+                                  <Top>0</Top>
+                                  <Left>0</Left>
+                                  <Right>0</Right>
+                                  <Bottom>0</Bottom>
+                                </Margin>
+                                <Padding>
+                                  <Top>0</Top>
+                                  <Left>0</Left>
+                                  <Right>0</Right>
+                                  <Bottom>0</Bottom>
+                                </Padding>
                                 <TextAlignment>Left</TextAlignment>
                                 <Font>
                                   <Bold>false</Bold>
@@ -855,6 +877,12 @@
                                 <StyleSource>Theme</StyleSource>
                                 <CellStyleSource>Theme</CellStyleSource>
                                 <Alignment>None</Alignment>
+                                <BorderMargin>
+                                  <Top>0</Top>
+                                  <Left>0</Left>
+                                  <Right>0</Right>
+                                  <Bottom>0</Bottom>
+                                </BorderMargin>
                               </Cell>
                             </Cells>
                           </Row>
@@ -875,6 +903,23 @@
                   <ShowDocumentConfidence>true</ShowDocumentConfidence>
                 </FormControl>
               </CellControls>
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
               <TextAlignment>Left</TextAlignment>
               <Font>
                 <Bold>false</Bold>
@@ -887,6 +932,12 @@
               <StyleSource>Theme</StyleSource>
               <CellStyleSource>Theme</CellStyleSource>
               <Alignment>None</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
             </Cell>
           </Cells>
         </Row>
@@ -899,7 +950,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -955,7 +1006,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -996,7 +1047,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1037,7 +1088,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1087,7 +1138,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1137,7 +1188,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1189,7 +1240,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1239,7 +1290,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1289,7 +1340,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1338,7 +1389,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1388,7 +1439,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1439,7 +1490,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1491,7 +1542,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1542,7 +1593,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1595,7 +1646,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1647,7 +1698,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1696,7 +1747,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1745,7 +1796,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1794,7 +1845,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1843,7 +1894,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1923,7 +1974,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -1968,7 +2019,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2014,7 +2065,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2064,7 +2115,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2108,7 +2159,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2153,7 +2204,7 @@
     <FormAction xsi:type="RedirectAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2178,7 +2229,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <Redirect>
         <IsModalWindow>false</IsModalWindow>
         <Page>WORKQUEUE_FORM</Page>
@@ -2193,7 +2244,7 @@
     <FormAction xsi:type="SamePageAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2220,12 +2271,12 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
     </FormAction>
     <FormAction xsi:type="RedirectAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2250,7 +2301,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <Redirect>
         <IsModalWindow>false</IsModalWindow>
         <Page>AssociatedFile?JOB_ID=sppJOB_ID&amp;EPC=sppEPC&amp;NODE_ID=sppNODE_ID</Page>
@@ -2265,7 +2316,7 @@
     <FormAction xsi:type="BeginConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2299,7 +2350,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <RuleData>
         <RuleInputs>
           <RuleInput>
@@ -2315,7 +2366,7 @@
     <FormAction xsi:type="EndConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2340,12 +2391,12 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
     </FormAction>
     <FormAction xsi:type="BeginConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2379,7 +2430,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <RuleData>
         <RuleInputs>
           <RuleInput>
@@ -2395,7 +2446,7 @@
     <FormAction xsi:type="EndConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2420,12 +2471,12 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
     </FormAction>
     <FormAction xsi:type="BeginConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2459,7 +2510,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <RuleData>
         <RuleInputs>
           <RuleInput>
@@ -2475,7 +2526,7 @@
     <FormAction xsi:type="EndConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2500,12 +2551,12 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
     </FormAction>
     <FormAction xsi:type="BeginConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2539,7 +2590,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <RuleData>
         <RuleInputs>
           <RuleInput>
@@ -2555,7 +2606,7 @@
     <FormAction xsi:type="EndConditionAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2580,12 +2631,12 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
     </FormAction>
     <FormAction xsi:type="RedirectAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2610,7 +2661,7 @@
       <IsReadOnly>false</IsReadOnly>
       <IsCapture>false</IsCapture>
       <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
-      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
       <Redirect>
         <IsModalWindow>false</IsModalWindow>
         <Page>TakeActivity.form?jobid=sppJOB_ID&amp;epc=sppEPC&amp;nodeid=sppNODE_ID</Page>
@@ -2625,7 +2676,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2671,7 +2722,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2718,7 +2769,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2764,7 +2815,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2812,7 +2863,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2860,7 +2911,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2907,7 +2958,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -2953,7 +3004,7 @@
     <FormAction xsi:type="DotNetAction">
       <FormIdentity>
         <Id>C9E2A06569B24DA5B11ED6B8D8876B58</Id>
-        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>stest_Document Review</Name>
         <Version>0</Version>
       </FormIdentity>
@@ -3129,6 +3180,15 @@
   <Language>base</Language>
   <DisplayRules />
   <CalculationRules />
+  <LockedBy>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
   <RefreshInterval>0</RefreshInterval>
   <BackgroundColor>#FFFFFFFF</BackgroundColor>
   <ErrorLocation>Default</ErrorLocation>
@@ -3190,8 +3250,11 @@
     <UsePassword>false</UsePassword>
     <LogOnFormType>NotSet</LogOnFormType>
   </FormGenerationSettings>
-  <AssociatedLabelWidth>0</AssociatedLabelWidth>
+  <AssociatedLabelWidth>150</AssociatedLabelWidth>
   <UseViewport>false</UseViewport>
+  <ViewportSettings>
+    <UserScalable>false</UserScalable>
+  </ViewportSettings>
   <BackgroundSettings>
     <UseBackgroundImage>false</UseBackgroundImage>
     <LoadImageFromStore>false</LoadImageFromStore>
@@ -3244,7 +3307,78 @@
   <Responsive>false</Responsive>
   <ShowMandatoryAsterisk>true</ShowMandatoryAsterisk>
   <FormDataModels />
-  <MappedFormVariables />
+  <MappedFormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>BatchId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>FolderId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppEPC</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:int">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppJOB_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppNODE_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:int">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppSESSION_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppACTIVITY_NAME</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>AssociatedFile</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>FoundActivity</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Boolean</VariableType>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </FormVariable>
+  </MappedFormVariables>
   <GetQueriesAssociatedWithFormVariants />
   <OverrideTableRowsAutoHeight>None</OverrideTableRowsAutoHeight>
 </CaptureDocumentReviewActivityForm>
