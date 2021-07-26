@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>089C60D0300142D6BEA05AA1C43607F6</Id>
     <Name>tp11</Name>
-    <Version>1</Version>
+    <Version>2</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -11,7 +11,7 @@
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
     <Name>Default Category</Name>
   </CategoryIdentity>
-  <LastModifiedDateTime>2021-07-26T23:05:38.663</LastModifiedDateTime>
+  <LastModifiedDateTime>2021-07-26T23:07:29.57</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -39,7 +39,7 @@
       <GeneralizedExport>false</GeneralizedExport>
       <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
       <ExportCaseFragments>false</ExportCaseFragments>
-      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportTemplateSkins>false</ExportTemplateSkins>
       <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
       <ExportGlobalDataModels>false</ExportGlobalDataModels>
       <ExportProcessDataModels>false</ExportProcessDataModels>
@@ -69,7 +69,7 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
     </ProcessExportOption>
     <WorkAllocationRules />
     <Skins />
@@ -234,6 +234,7 @@
       <Name />
       <Version>0</Version>
     </QuickApp>
+    <GitFolderName>tp11</GitFolderName>
   </Data>
   <Comments />
   <ResourceAccessTokens>
