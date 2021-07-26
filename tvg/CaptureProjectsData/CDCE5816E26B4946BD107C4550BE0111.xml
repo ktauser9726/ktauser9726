@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>CDCE5816E26B4946BD107C4550BE0111</Id>
+    <Version>1</Version>
+    <Name>tvg</Name>
+  </Identity>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </Category>
+  <Name>tvg</Name>
+  <Description />
+  <Status>Released</Status>
+  <LastModifiedProjectFile>2021-07-26T15:54:25.533</LastModifiedProjectFile>
+  <LastModifiedProjectFolderZip>2021-07-26T15:54:25.487</LastModifiedProjectFolderZip>
+  <LastModifiedUser>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedBy>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+  <OnlineLearningFolderId />
+  <ProjectType>Shared</ProjectType>
+  <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
+  <IsSeparationEnabled>false</IsSeparationEnabled>
+  <LockedByModule>TotalAgilityDesigner</LockedByModule>
+  <IsSimpleProject>false</IsSimpleProject>
+  <TrainingSetPath />
+  <UsedLicenseFeatures>None</UsedLicenseFeatures>
+  <IsReadOnly>false</IsReadOnly>
+  <DoUpgrade>false</DoUpgrade>
+  <CustomVersion>0</CustomVersion>
+  <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  <IsCaptureSolutionProject>false</IsCaptureSolutionProject>
+  <QuickClassificationBaseDocTypeId>C09D6211B8344F9E93A52CB1F7D6DE89</QuickClassificationBaseDocTypeId>
+</ProjectInfo>

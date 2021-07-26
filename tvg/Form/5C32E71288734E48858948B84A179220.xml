@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CaptureVerificationActivityForm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DBVersion>7.10</DBVersion>
+  <FormType>CaptureVerificationActivityForm</FormType>
+  <FormIdentity>
+    <Id>5C32E71288734E48858948B84A179220</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Name>tvg_Verification</Name>
+    <Version>1</Version>
+  </FormIdentity>
+  <Title>tvg_Verification</Title>
+  <Width>1300</Width>
+  <Height>680</Height>
+  <LastModifiedDateTime>2021-07-26T15:54:27.64</LastModifiedDateTime>
+  <InternalModifiedDate>2021-07-26T15:54:27.64</InternalModifiedDate>
+  <LastModifiedByUser>BF62C7273BAC4F39AA4A1AA2FB75E0E1</LastModifiedByUser>
+  <Columns>
+    <FormColumn>
+      <DisplayIndex>0</DisplayIndex>
+      <Width>1300</Width>
+      <PercentageWidth>100</PercentageWidth>
+      <Height>680</Height>
+      <Rows>
+        <Row>
+          <Width>1300</Width>
+          <Height>20</Height>
+          <DisplayIndex>0</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>8A2AE3E5089F4ED3830BD90D444537D7</Id>
+              <Name>Cell1</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>1300</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>680</Height>
+              <MinHeight>25</MinHeight>
+              <Orientation>1</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>Transparent</BackgroundColor>
+              <CellControls>
+                <FormControl xsi:type="VerificationCaptureControl">
+                  <ControlType>CaptureVerification</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>OnSelectDocument</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSelectFolder</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnSaveFieldChanges</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7FE19BADAB6548F9A7D909EDFA9DB921</Id>
+                            <Name>VerificationControlSaveChanges</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCaptureCancelActivity</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>2ADB2EE485ED4312848D06F8004F4FBE</Id>
+                            <Name>VerificationControlUnloadBatchCancelAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7EFE3A76A30346F188196DCB0F2A1BD6</Id>
+                            <Name>cancelactivity</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>8111D772110A4B79B54ABACB66DABDCD</Id>
+                            <Name>redirCancel</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCaptureCompleteActivity</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>11C47A3A8DBF456A869C3130D882BD45</Id>
+                            <Name>VerificationControlUnloadBatchCompleteAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F2D0A2320F194CA689059DCFCD4B9E3B</Id>
+                            <Name>activitycomplete</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>8111D772110A4B79B54ABACB66DABDCD</Id>
+                            <Name>redirCancel</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B9CEAD15D7E0401097298FB3FD72EA38</Id>
+                            <Name>SamePageEvent1</Name>
+                            <ActionType>SamePage</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCaptureCompleteAndTakeNextActivity</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>11C47A3A8DBF456A869C3130D882BD45</Id>
+                            <Name>VerificationControlUnloadBatchCompleteAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F2D0A2320F194CA689059DCFCD4B9E3B</Id>
+                            <Name>activitycomplete</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1C77F94007614AF2BBF07547FE1D1036</Id>
+                            <Name>TakeNextActivity</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>5E6595EC7BE3453F9FD156E524BB49D1</Id>
+                            <Name>beginFoundNextAction</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B48A65AD07BE4300BCE1F0B3852BE401</Id>
+                            <Name>beginNextAssociatedFileFound</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>5D1623231B8A4D1F8E1D0C5C3EC73A81</Id>
+                            <Name>redirNextActivity</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B0A4FB557FF74731AD08EADBBA846045</Id>
+                            <Name>endNextAssociatedFileFound</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>1F853239F8A34856A889B8DDD93CA9BF</Id>
+                            <Name>beginNextAssociatedFileNotFound</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>C1DA7E0CD7F24A93B181F0D6150B8820</Id>
+                            <Name>redirectToGenericTakeActivity</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>85588B8A5CC747198738EBC495A35B94</Id>
+                            <Name>endNextAssociatedFileNotFound</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>365AED3F5B6545C08048D3092D504AEA</Id>
+                            <Name>endFoundNextAction</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>6B67F9A0DF214BF58745DB3654946F02</Id>
+                            <Name>beginNextActivityNotFound</Name>
+                            <ActionType>BeginCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>8111D772110A4B79B54ABACB66DABDCD</Id>
+                            <Name>redirCancel</Name>
+                            <ActionType>Redirect</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>B9CEAD15D7E0401097298FB3FD72EA38</Id>
+                            <Name>SamePageEvent1</Name>
+                            <ActionType>SamePage</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>40998952EEF543AFAD3D84D302ACA905</Id>
+                            <Name>endNextActivityNotFound</Name>
+                            <ActionType>EndCondition</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCaptureOpenActivity</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnCaptureSaveActivity</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnRejectDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>A3DE0DCB450141D0ACA10F84EA9BD8E5</Id>
+                            <Name>VerificationControlRejectDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnUnrejectDocuments</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>83679D0CC83D4C588B8324A4ED499E30</Id>
+                            <Name>VerificationControlUnrejectDocumentsAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnRejectPages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F6810927F4A7490397311299918A252E</Id>
+                            <Name>VerificationControlRejectPagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnUnrejectPages</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>9B36269FDDC24F13B21BA3F39BBD2E58</Id>
+                            <Name>VerificationControlUnrejectPagesAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>5C32E71288734E48858948B84A179220</Id>
+                    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+                    <Name>tvg_Verification</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>3084FE88BBC34D17A7DCB5FC7F40E21F</Id>
+                  <Name>VerificationControl</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>0</Left>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Margin>
+                  <Width>1300</Width>
+                  <MinWidth>0</MinWidth>
+                  <PercentageWidth>100</PercentageWidth>
+                  <Height>650</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>0</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>None</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <ShowCompleteActivity>true</ShowCompleteActivity>
+                  <TakeNextActivity>false</TakeNextActivity>
+                  <AutoCompleteBehaviour>CompleteActivity</AutoCompleteBehaviour>
+                  <ToolBarSettings>
+                    <MainToolBarCommands>
+                      <ToolBarCommand>
+                        <Command>0</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>1</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>2</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>3</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>4</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>5</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>6</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>7</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>8</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>9</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>10</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>11</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>12</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>13</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>14</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>15</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>21</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>22</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>31</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>32</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                    </MainToolBarCommands>
+                    <ImageViewerToolBarCommands>
+                      <ToolBarCommand>
+                        <Command>0</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>1</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>5</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>6</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>7</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>8</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>9</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>10</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>11</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>12</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>13</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>14</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>15</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>16</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>17</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>18</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>19</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                      <ToolBarCommand>
+                        <Command>20</Command>
+                        <Disabled>false</Disabled>
+                      </ToolBarCommand>
+                    </ImageViewerToolBarCommands>
+                  </ToolBarSettings>
+                  <LockedLayout>false</LockedLayout>
+                  <DisableAutomaticFieldNavigation>false</DisableAutomaticFieldNavigation>
+                  <CompleteActivityWithInvalidFields>false</CompleteActivityWithInvalidFields>
+                  <RejectionReasons />
+                  <VariablesView>
+                    <Columns>
+                      <FormColumn>
+                        <DisplayIndex>0</DisplayIndex>
+                        <Width>1300</Width>
+                        <PercentageWidth>0</PercentageWidth>
+                        <Height>420</Height>
+                        <Rows>
+                          <Row>
+                            <Width>1300</Width>
+                            <Height>20</Height>
+                            <DisplayIndex>0</DisplayIndex>
+                            <Cells>
+                              <Cell>
+                                <Id>DCF17B5A08F14851AA1DF50A70918D6D</Id>
+                                <Name>Cell2</Name>
+                                <Collapsible>false</Collapsible>
+                                <Collapsed>false</Collapsed>
+                                <Visible>true</Visible>
+                                <DisplayIndex>0</DisplayIndex>
+                                <Width>1300</Width>
+                                <PercentageWidth>100</PercentageWidth>
+                                <CellLayout>1</CellLayout>
+                                <Height>20</Height>
+                                <MinHeight>25</MinHeight>
+                                <Orientation>1</Orientation>
+                                <Border>0</Border>
+                                <BackgroundColor>Transparent</BackgroundColor>
+                                <CellControls />
+                                <TextAlignment>Left</TextAlignment>
+                                <Font>
+                                  <Bold>false</Bold>
+                                  <Italic>false</Italic>
+                                  <Overline>false</Overline>
+                                  <Size>0</Size>
+                                  <Strikeout>false</Strikeout>
+                                  <Underline>false</Underline>
+                                </Font>
+                                <StyleSource>Theme</StyleSource>
+                                <CellStyleSource>Theme</CellStyleSource>
+                                <Alignment>None</Alignment>
+                              </Cell>
+                            </Cells>
+                          </Row>
+                        </Rows>
+                        <BackgroundColor>Transparent</BackgroundColor>
+                      </FormColumn>
+                    </Columns>
+                    <Actions />
+                  </VariablesView>
+                  <DocumentDisplayText>Document</DocumentDisplayText>
+                  <FolderDisplayText>Folder</FolderDisplayText>
+                  <ActivityDisplayText>Activity</ActivityDisplayText>
+                  <ThumbnailPanelDisplayMode>None</ThumbnailPanelDisplayMode>
+                </FormControl>
+              </CellControls>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Theme</CellStyleSource>
+              <Alignment>None</Alignment>
+            </Cell>
+          </Cells>
+        </Row>
+      </Rows>
+      <BackgroundColor>#FFFFFFFF</BackgroundColor>
+    </FormColumn>
+  </Columns>
+  <InitializationVars />
+  <Actions>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>286C84EF8ADB4C599F19A2A038F5C215</Id>
+        <Name>VerificationControlLoadBatchAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>LoadBatch3</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="3" name="activityType" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" value="" name="jobActivityIdentity" selection="false">
+            <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Processes.ProcessIdentity" value="" name="processIdentity" selection="false">
+            <member name="Id" source="inline" type="System.String" value="" field="" selection="false" index="0" />
+            <member name="Version" source="inline" type="System.Double" value="0.0" field="" selection="false" index="0" />
+            <member name="Name" source="inline" type="System.String" value="" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.BatchSettings" value="" name="batchSettings" selection="false">
+            <member name="AvailableVolume" source="" type="System.String" field="" selection="false" index="0" />
+            <member name="DocumentVariant" source="form" type="System.String" value="" field="VerificationControl.DocumentVariantName" selection="false" index="0" />
+            <member name="ActivityVariant" source="form" type="System.String" value="" field="VerificationControl.ActivityVariantName" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="form" field="VerificationControl.taData.initializationData" datatype="Agility.Sdk.Model.Capture.ScanCNJInitializationData" name="ReturnParameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>11C47A3A8DBF456A869C3130D882BD45</Id>
+        <Name>VerificationControlUnloadBatchCompleteAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnloadBatch</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="formvariable" field="BatchId" datatype="System.String" value="" name="batchId" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.jsonData" datatype="System.String" value="" name="jsonData" selection="false" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="0" name="sessionState" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>2ADB2EE485ED4312848D06F8004F4FBE</Id>
+        <Name>VerificationControlUnloadBatchCancelAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CancelBatch</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyName>
+        <AssemblyLoadType>Gac</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="formvariable" field="BatchId" datatype="System.String" value="" name="batchId" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.jsonData" datatype="System.String" value="" name="jsonData" selection="false" />
+          <Parameter direction="in" source="inline" field="" datatype="System.Int16" value="1" name="sessionState" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d86c87abe4a71948</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>7FE19BADAB6548F9A7D909EDFA9DB921</Id>
+        <Name>VerificationControlSaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+            <member name="CancelingActivity" source="form" type="System.Boolean" value="" field="VerificationControl.cancelingActivity" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>ED850A236F07469C848AB1702C003EDD</Id>
+        <Name>takependingactivity</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>TakeActivity</Name>
+        <ClassName>TotalAgility.Sdk.ActivityService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" value="" name="jobActivityIdentity" selection="false">
+            <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivity" value="" prelimdatatype="" subfieldsource="" subfield="" name="Return Parameter" selection="false">
+            <member name="Identity" type="Agility.Sdk.Model.Activities.JobActivityIdentity" selection="false" index="0">
+              <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+              <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+              <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+              <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+            </member>
+            <member name="InputOutputVariables" source="" type="Agility.Sdk.Model.Variables.InputOutputVariables" value="" field="" selection="false" index="0">
+              <member name="InputVariables" source="" type="Agility.Sdk.Model.Variables.JobVariable[]" value="" field="" selection="false" index="0">
+                <member name="" type="Agility.Sdk.Model.Variables.JobVariable" selection="false" index="0">
+                  <member name="Id" source="inline" type="System.String" value="FOLDER" field="" selection="false" index="0" />
+                  <member name="VariableType" type="Agility.Sdk.Model.Variables.VariableType" selection="false" index="0">
+                    <member name="Value" source="inline" type="System.Int16" value="Folder" field="" selection="false" index="0" />
+                    <member name="FormattedAsText" source="inline" type="System.String" value="" field="" selection="false" index="0" />
+                  </member>
+                  <member name="DisplayName" source="inline" type="System.String" field="" selection="false" index="0" />
+                </member>
+              </member>
+              <member name="OutputVariables" source="" type="Agility.Sdk.Model.Variables.JobVariable[]" value="" field="" selection="false" index="0" />
+            </member>
+            <member name="ThreadpoolId" source="" type="System.Int16" value="" field="" selection="false" index="0" />
+            <member name="SettingsXml" source="" type="System.String" value="" field="" selection="false" index="0" />
+            <member name="HelpText" source="" type="System.String" value="" field="" selection="false" index="0" />
+            <member name="Priority" source="" type="System.Int16" value="" field="" selection="false" index="0" />
+            <member name="DueDate" source="" type="System.DateTime" value="" field="" selection="false" index="0" />
+            <member name="Process" type="Agility.Sdk.Model.Processes.ProcessIdentity" selection="false" index="0">
+              <member name="Id" source="" type="System.String" value="" field="" selection="false" index="0" />
+              <member name="Version" source="" type="System.Double" value="" field="" selection="false" index="0" />
+              <member name="Name" source="" type="System.String" value="" field="" selection="false" index="0" />
+            </member>
+            <member name="ActivityType" type="Agility.Sdk.Model.Activities.ActivityType" selection="false" index="0">
+              <member name="Value" source="" type="System.Int16" value="" field="" selection="false" index="0" />
+            </member>
+            <member name="AssociatedFile" source="" type="System.String" value="" field="" selection="false" index="0" />
+            <member name="CustomData" source="" type="System.String" value="" field="" selection="false" index="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>F2D0A2320F194CA689059DCFCD4B9E3B</Id>
+        <Name>activitycomplete</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CompleteActivity</Name>
+        <ClassName>TotalAgility.Sdk.ActivityService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" value="" name="jobActivityIdentity" selection="false">
+            <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityOutput" value="" name="jobActivityOutput" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>9CF1C1F024E24110855167A4A83DE97F</Id>
+        <Name>CompleteActivityAndProgress</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CompleteActivityAndProgress</Name>
+        <ClassName>TotalAgility.Sdk.ActivityService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" value="" name="jobActivityIdentity" selection="false">
+            <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityOutput" value="" name="jobActivityOutput" selection="false" />
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Jobs.JobProgressOutput" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>7EFE3A76A30346F188196DCB0F2A1BD6</Id>
+        <Name>cancelactivity</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>CancelActivity</Name>
+        <ClassName>TotalAgility.Sdk.ActivityService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.JobActivityIdentity" value="" name="jobActivityIdentity" selection="false">
+            <member name="NodeId" source="formvariable" type="System.Int16" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="ActivityName" source="formvariable" type="System.String" value="" field="sppACTIVITY_NAME" selection="false" index="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>8111D772110A4B79B54ABACB66DABDCD</Id>
+        <Name>redirCancel</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>WORKQUEUE_FORM</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>Dynamic</RedirectType>
+        <PopupWidth>0</PopupWidth>
+        <PopupHeight>0</PopupHeight>
+        <IgnoreRedirectConfirmation>true</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="SamePageAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>B9CEAD15D7E0401097298FB3FD72EA38</Id>
+        <Name>SamePageEvent1</Name>
+        <ActionType>SamePage</ActionType>
+      </Identity>
+      <Method>
+        <Parameters>
+          <Parameter direction="in" source="Session" field="WORKQUEUE_FORM" value="value" subfieldsource="Inline" subfield="" selection="false" />
+        </Parameters>
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>5D1623231B8A4D1F8E1D0C5C3EC73A81</Id>
+        <Name>redirNextActivity</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>AssociatedFile?JOB_ID=sppJOB_ID&amp;EPC=sppEPC&amp;NODE_ID=sppNODE_ID</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>Dynamic</RedirectType>
+        <PopupWidth>0</PopupWidth>
+        <PopupHeight>0</PopupHeight>
+        <IgnoreRedirectConfirmation>true</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1C77F94007614AF2BBF07547FE1D1036</Id>
+        <Name>TakeNextActivity</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>TakeNextActivity2</Name>
+        <ClassName>TotalAgility.Sdk.ActivityService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Activities.TakeNextActivityFilter" value="" name="filter" selection="false">
+            <member name="UseCombinedWorkQueue" source="inline" type="System.Boolean" value="true" field="" selection="false" index="0" />
+            <member name="UseWorkAllocationRules" source="inline" type="System.Boolean" value="true" field="" selection="false" index="0" />
+            <member name="UserFilterData" source="session" type="System.String" value="" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="ret" source="" field="" datatype="Agility.Sdk.Model.Activities.NextActivity" value="" name="Return Parameter" selection="false">
+            <member name="FoundActivity" source="formvariable" type="System.Boolean" value="" field="FoundActivity" selection="false" index="0" />
+            <member name="JobId" source="formvariable" type="System.String" value="" field="sppJOB_ID" selection="false" index="0" />
+            <member name="EmbeddedProcessCount" source="formvariable" type="System.Int16" value="" field="sppEPC" selection="false" index="0" />
+            <member name="NodeId" source="formvariable" type="System.Int32" value="" field="sppNODE_ID" selection="false" index="0" />
+            <member name="AssociatedFile" source="formvariable" type="System.String" value="" field="AssociatedFile" selection="false" index="0" />
+          </Parameter>
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>5E6595EC7BE3453F9FD156E524BB49D1</Id>
+        <Name>beginFoundNextAction</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>FoundActivity</Id>
+          <Operator>EQUALS</Operator>
+          <Value>true</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>Boolean</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>FoundActivity</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>Bool</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬FoundActivity¬ = true</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>365AED3F5B6545C08048D3092D504AEA</Id>
+        <Name>endFoundNextAction</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>6B67F9A0DF214BF58745DB3654946F02</Id>
+        <Name>beginNextActivityNotFound</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>FoundActivity</Id>
+          <Operator>EQUALS</Operator>
+          <Value>false</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>Boolean</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>FoundActivity</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>Bool</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬FoundActivity¬ = false</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>40998952EEF543AFAD3D84D302ACA905</Id>
+        <Name>endNextActivityNotFound</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>B48A65AD07BE4300BCE1F0B3852BE401</Id>
+        <Name>beginNextAssociatedFileFound</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>AssociatedFile</Id>
+          <Operator>NOT EQUALS</Operator>
+          <Value>""</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>String</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>AssociatedFile</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>String</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬AssociatedFile¬ != ""</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>B0A4FB557FF74731AD08EADBBA846045</Id>
+        <Name>endNextAssociatedFileFound</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="BeginConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>1F853239F8A34856A889B8DDD93CA9BF</Id>
+        <Name>beginNextAssociatedFileNotFound</Name>
+        <ActionType>BeginCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition>
+        <Condition>
+          <Id>AssociatedFile</Id>
+          <Operator>EQUALS</Operator>
+          <Value>""</Value>
+          <Source>Inline</Source>
+          <ControlType>FormVariable</ControlType>
+          <FieldType>String</FieldType>
+        </Condition>
+      </FiringCondition>
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <RuleData>
+        <RuleInputs>
+          <RuleInput>
+            <Id>AssociatedFile</Id>
+            <Scope>FormVariable</Scope>
+            <VariableType>String</VariableType>
+          </RuleInput>
+        </RuleInputs>
+        <Script>¬AssociatedFile¬ = ""</Script>
+        <RuleType>BeingConditionAction</RuleType>
+      </RuleData>
+    </FormAction>
+    <FormAction xsi:type="EndConditionAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>85588B8A5CC747198738EBC495A35B94</Id>
+        <Name>endNextAssociatedFileNotFound</Name>
+        <ActionType>EndCondition</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="RedirectAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>C1DA7E0CD7F24A93B181F0D6150B8820</Id>
+        <Name>redirectToGenericTakeActivity</Name>
+        <ActionType>Redirect</ActionType>
+      </Identity>
+      <Method>
+        <Parameters />
+        <DupMethodNoSpecified>false</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>false</IsReadOnly>
+      <IsCapture>false</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+      <Redirect>
+        <IsModalWindow>false</IsModalWindow>
+        <Page>TakeActivity.form?jobid=sppJOB_ID&amp;epc=sppEPC&amp;nodeid=sppNODE_ID</Page>
+        <Target>SameWindow</Target>
+        <RedirectType>Dynamic</RedirectType>
+        <PopupWidth>0</PopupWidth>
+        <PopupHeight>0</PopupHeight>
+        <IgnoreRedirectConfirmation>true</IgnoreRedirectConfirmation>
+        <UseBreadcrumbTrail>false</UseBreadcrumbTrail>
+      </Redirect>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>A3DE0DCB450141D0ACA10F84EA9BD8E5</Id>
+        <Name>VerificationControlRejectDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>RejectDocuments</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.reason" datatype="System.String" value="" name="reason" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>83679D0CC83D4C588B8324A4ED499E30</Id>
+        <Name>VerificationControlUnrejectDocumentsAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnrejectDocuments</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="" field="" datatype="System.Object" name="reportingData" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.selectedDocuments" datatype="System.Object" value="" name="documentIds" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>F6810927F4A7490397311299918A252E</Id>
+        <Name>VerificationControlRejectPagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>RejectPages</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="documentId" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageIndexes" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.rejectionNote" datatype="System.String" value="" name="reason" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>9B36269FDDC24F13B21BA3F39BBD2E58</Id>
+        <Name>VerificationControlUnrejectPagesAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>UnrejectPages</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="formvariable" type="System.String" value="" field="BatchId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.currentDocument" datatype="System.String" value="" name="documentId" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.selectedPages" datatype="System.Object" value="" name="pageIndexes" selection="false" />
+          <Parameter direction="in" source="form" field="VerificationControl.batchEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.BatchEditResults" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>false</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>FDE0974FE15843FEA7E7A682832000C1</Id>
+        <Name>SaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="inlinescript" type="System.String" value="" field="CEBPM.controller.AppConfig.getMainView().sessionID" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="3" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="inlinescript" field="CEBPM.controller.BatchData.getChanges()" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+  </Actions>
+  <FormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>BatchId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>FolderId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppEPC</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:int">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppJOB_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppNODE_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Numeric</VariableType>
+      <Value xsi:type="xsd:int">0</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppSESSION_ID</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>sppACTIVITY_NAME</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>AssociatedFile</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>FoundActivity</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">Boolean</VariableType>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </FormVariable>
+  </FormVariables>
+  <CategoryId>201F370CA5164F76ADDD8EEEFF666AF7</CategoryId>
+  <UseHeader xsi:nil="true" />
+  <UseHorizontalNavigation xsi:nil="true" />
+  <UseVerticalNavigation xsi:nil="true" />
+  <StringMappingsCollection>
+    <StringMappingEntity>
+      <ControlID>5C32E71288734E48858948B84A179220</ControlID>
+      <Property>formtitle</Property>
+      <StringId>6D55BD8A67F94656BC77956043FC277E</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>8A2AE3E5089F4ED3830BD90D444537D7</ControlID>
+      <Property>titletext</Property>
+      <StringId>AD86381F78554FEBBD9BF809F53529B0</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>3084FE88BBC34D17A7DCB5FC7F40E21F</ControlID>
+      <Property>DocumentDisplayText</Property>
+      <StringId>838719FB35D0439F96D17C115FE49931</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>3084FE88BBC34D17A7DCB5FC7F40E21F</ControlID>
+      <Property>FolderDisplayText</Property>
+      <StringId>6B44D59A6E8B4ECCB7E524F216D26E29</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>3084FE88BBC34D17A7DCB5FC7F40E21F</ControlID>
+      <Property>ProcessDisplayText</Property>
+      <StringId>9130FB572FDE4FDF83EEE2869C130339</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>22AD58BE1D654547ACD65AA62012A074</StringId>
+      <VarId>BatchId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>6D4AC21F4CE04C47AA550C98CA9A9D5F</StringId>
+      <VarId>DocumentId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>63BACB79C05048B6A270C1EB6D09EC58</StringId>
+      <VarId>FolderId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>56D5B5393C6248C396A5DDC59C38A2FF</StringId>
+      <VarId>sppJOB_ID</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>54AD91C943E74FD58A9B4F285847013A</StringId>
+      <VarId>sppSESSION_ID</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>83D654162F8544F7981942FD5EC8C9D5</StringId>
+      <VarId>sppACTIVITY_NAME</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>4164EA90B72D4FFBA04C40259A11F838</StringId>
+      <VarId>AssociatedFile</VarId>
+    </StringMappingEntity>
+  </StringMappingsCollection>
+  <Language>base</Language>
+  <DisplayRules />
+  <CalculationRules />
+  <LockedBy>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+  <RefreshInterval>0</RefreshInterval>
+  <BackgroundColor>#FFFFFFFF</BackgroundColor>
+  <ErrorLocation>Default</ErrorLocation>
+  <FormLayout>Flow</FormLayout>
+  <PercentageWidth>100</PercentageWidth>
+  <Status>Released</Status>
+  <ApplySecurityToken>false</ApplySecurityToken>
+  <AllowByDefault>true</AllowByDefault>
+  <Resources />
+  <FormEvents>
+    <FormEvent>
+      <EventType>OnVerificationFormLoaded</EventType>
+      <Actions>
+        <FormActionSummary>
+          <Identity>
+            <Id>ED850A236F07469C848AB1702C003EDD</Id>
+            <Name>takependingactivity</Name>
+            <ActionType>DotNet</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+        <FormActionSummary>
+          <Identity>
+            <Id>286C84EF8ADB4C599F19A2A038F5C215</Id>
+            <Name>VerificationControlLoadBatchAction</Name>
+            <ActionType>DotNet</ActionType>
+          </Identity>
+          <Disabled>false</Disabled>
+        </FormActionSummary>
+      </Actions>
+    </FormEvent>
+    <FormEvent>
+      <EventType>BeforeRender</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>AfterRender</EventType>
+      <Actions />
+    </FormEvent>
+  </FormEvents>
+  <IsThemePageColor>true</IsThemePageColor>
+  <ShouldTriggerOnLoad>false</ShouldTriggerOnLoad>
+  <FormGenerationSettings>
+    <Identity>
+      <Id>9E957BB2D93F45B8A268399F51E185BC</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>1</Version>
+      <Name>tvg</Name>
+    </Identity>
+    <NodeIdentity>
+      <Id>6</Id>
+      <SubNodeId>0</SubNodeId>
+      <Name>Verification</Name>
+      <NodeType>VerificationCaptureActivity</NodeType>
+    </NodeIdentity>
+    <UpdateAssociatedFile>false</UpdateAssociatedFile>
+    <AssociatedFileName />
+    <UseManualLogon>false</UseManualLogon>
+    <UsePassword>false</UsePassword>
+    <LogOnFormType>NotSet</LogOnFormType>
+  </FormGenerationSettings>
+  <AssociatedLabelWidth>0</AssociatedLabelWidth>
+  <UseViewport>false</UseViewport>
+  <BackgroundSettings>
+    <UseBackgroundImage>false</UseBackgroundImage>
+    <LoadImageFromStore>false</LoadImageFromStore>
+    <ResizeImageToFit>false</ResizeImageToFit>
+  </BackgroundSettings>
+  <FormAlign>Center</FormAlign>
+  <TouchEnabled>false</TouchEnabled>
+  <MobileFormProperties>
+    <ActionMenus />
+  </MobileFormProperties>
+  <NavigationView>
+    <ToolBars />
+    <Enabled>false</Enabled>
+  </NavigationView>
+  <DesignWidth>1300</DesignWidth>
+  <DesignHeight>0</DesignHeight>
+  <PrimaryForm>Desktop</PrimaryForm>
+  <AllowAnyone>true</AllowAnyone>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <RedirectConfirmation>true</RedirectConfirmation>
+  <RedirectOnLoadErrorForm>
+    <FormIdentity>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </FormIdentity>
+    <RedirectOptions>Origin</RedirectOptions>
+  </RedirectOnLoadErrorForm>
+  <FormVariants />
+  <UseBrowserTabOrder>true</UseBrowserTabOrder>
+  <EnableColumnSplitting>false</EnableColumnSplitting>
+  <ShowColumnSplitter>false</ShowColumnSplitter>
+  <ExpandLastRowToFit>true</ExpandLastRowToFit>
+  <UseRelativeHeight>true</UseRelativeHeight>
+  <Responsive>false</Responsive>
+  <ShowMandatoryAsterisk>true</ShowMandatoryAsterisk>
+  <FormDataModels />
+  <MappedFormVariables />
+  <GetQueriesAssociatedWithFormVariants />
+  <OverrideTableRowsAutoHeight>None</OverrideTableRowsAutoHeight>
+</CaptureVerificationActivityForm>

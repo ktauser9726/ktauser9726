@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DocumentGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>CDCE5816E26B4946BD107C4550BE0111</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>1</Version>
+    <Name>tvg</Name>
+  </Identity>
+  <Name>tvg</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>true</IsShared>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </Category>
+  <DocumentTypes>
+    <DocumentType>
+      <Identity>
+        <Id>335CA015D610DF77F25674C18E00E671</Id>
+        <Version>1</Version>
+        <Name>Document Type 1</Name>
+      </Identity>
+      <Name>Document Type 1</Name>
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups />
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <NumberOfPages>0</NumberOfPages>
+          <PageCountLevel>AtLeast</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <ParentDocumentType>
+        <Id>C09D6211B8344F9E93A52CB1F7D6DE89</Id>
+        <Version>1</Version>
+        <Name />
+      </ParentDocumentType>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+    <DocumentType>
+      <Identity>
+        <Id>C09D6211B8344F9E93A52CB1F7D6DE89</Id>
+        <Version>1</Version>
+        <Name />
+      </Identity>
+      <Name />
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups />
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <NumberOfPages>0</NumberOfPages>
+          <PageCountLevel>AtLeast</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+  </DocumentTypes>
+  <LastModifiedDate>2021-07-26T15:54:25.533</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedBy>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Ramya.Thanneeru</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+  <LockedByModule>TotalAgilityDesigner</LockedByModule>
+  <RootDocumentType>
+    <Id>C09D6211B8344F9E93A52CB1F7D6DE89</Id>
+    <Version>1</Version>
+    <Name />
+  </RootDocumentType>
+  <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
+  <OnlineLearningSettings>
+    <OnlineLearningMaxNewSamples>2000</OnlineLearningMaxNewSamples>
+    <IsAutomaticOnlineLearningEnabled>true</IsAutomaticOnlineLearningEnabled>
+    <OnlineLearningFolderId />
+  </OnlineLearningSettings>
+  <FuzzyDatabases />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+</DocumentGroup>

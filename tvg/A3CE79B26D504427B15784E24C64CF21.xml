@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>A3CE79B26D504427B15784E24C64CF21</Id>
+    <Name>tvg</Name>
+    <Version>1</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+  </CategoryIdentity>
+  <LastModifiedDateTime>2021-07-26T15:54:55.85</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Ramya.Thanneeru</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>9E957BB2D93F45B8A268399F51E185BC</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>tvg</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>2EFF2840C3AE4C3382D36D346D9008E7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>tvg_Document Review</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>5635FA498CCA409C9005D614FF1FAE6B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>tvg_Validation</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>5C32E71288734E48858948B84A179220</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>tvg_Verification</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>7DD2D85EFF7A4C548CBCF1B7A1DC4DD2</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>tvg_Scan</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>850A3C908DAD44EBBBB0624DBEF927DB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>tvg_Rescan</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups />
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>CDCE5816E26B4946BD107C4550BE0111</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>tvg</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Default Category</Name>
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles>
+      <ScanVrsProfileIdentity>
+        <Id>278985F37644523ADBA102221A49357E</Id>
+        <Name>QuickCapture</Name>
+      </ScanVrsProfileIdentity>
+    </ScanVrsProfiles>
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id>A3CE79B26D504427B15784E24C64CF21</Id>
+      <Name>tvg</Name>
+      <Version>1</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </QuickApp>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+  <LockedBy>
+    <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+</SpaPackage>
