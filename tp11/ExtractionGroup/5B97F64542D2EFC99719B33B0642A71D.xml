@@ -3,7 +3,7 @@
   <Identity>
     <Id>5B97F64542D2EFC99719B33B0642A71D</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
-    <Version>1</Version>
+    <Version>2</Version>
     <Name>eg</Name>
   </Identity>
   <Name>eg</Name>
@@ -19,7 +19,7 @@
     <DocumentType>
       <Identity>
         <Id>1E8B120A7585AF3434785EE5B580FAB6</Id>
-        <Version>1</Version>
+        <Version>2</Version>
         <Name />
       </Identity>
       <Name />
@@ -56,7 +56,28 @@
       <NameTemplate>[DocumentType]</NameTemplate>
       <OnlineLearningFolderId />
       <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
-      <Forms />
+      <Forms>
+        <ScanForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ScanForm>
+        <ValidationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </ValidationForm>
+        <VerificationForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </VerificationForm>
+        <DocumentReviewForm>
+          <Id />
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Version>0</Version>
+        </DocumentReviewForm>
+      </Forms>
       <AvailableForManualClassification>true</AvailableForManualClassification>
       <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
       <TemplateImage>
@@ -80,10 +101,11 @@
       <IsPartial>false</IsPartial>
     </DocumentType>
   </DocumentTypes>
-  <LastModifiedDate>2021-07-26T21:46:49.063</LastModifiedDate>
+  <LastModifiedDate>2021-07-26T23:29:18.197</LastModifiedDate>
   <LastModifiedUser>
     <Id>BF62C7273BAC4F39AA4A1AA2FB75E0E1</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Ramya.Thanneeru</Name>
     <ResourceType>Worker</ResourceType>
     <EmailAddress />
     <UserId />
@@ -101,7 +123,7 @@
   <LockedByModule>TotalAgilityDesigner</LockedByModule>
   <RootDocumentType>
     <Id>1E8B120A7585AF3434785EE5B580FAB6</Id>
-    <Version>1</Version>
+    <Version>2</Version>
     <Name />
   </RootDocumentType>
   <IsOnlineLearningEnabled>false</IsOnlineLearningEnabled>
